@@ -1,0 +1,180 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body{
+padding: 2% 2.4% 2% 2%;
+background: #f5f5f5 url(images/collsuper_ecbee.jpg); 
+background attachment: fixed;
+background repeat: repeat-x;
+background repeat: repeat-y;
+color: #333;
+font-family: "Comic Sans MS", Veranda, Arial, Helvetica, "Times New Roman", 
+sans-serif;
+/*border: 2px solid black;*/
+}
+
+#conteiner{
+width: 1080px;
+margine: 0 100px;
+border: 5px solid #999;
+}
+
+#header{          /*selektor*/
+background: url(images/night-special-affects-1140px-06.jpg) no-repeat;
+width: 1080px;
+height: 170px;
+}
+
+h1{
+font-size: 250%;
+font-weigth: bold;
+padding: 30px 10px 0;
+}
+
+#header a {
+color: #003399;
+text-decoration: none;
+}
+
+#header a:hover {
+color: #ffff00;
+text-decoration: none;
+}
+
+.description {
+font-size: 150%;
+color: #fff;
+padding: 10px 10px;
+}
+
+
+#nav{
+/*background: url(images/button.jpg) repeat-x;
+/*border: 2px solid #ccffcc;*/
+widhth: 150px;
+height: 38px;
+text-align: center;
+}
+
+#conteiner{
+background: #003333;
+width: 1080px;
+margine: 0 100px;
+border: 2px solid #999;
+}
+
+#nav ul{
+list-type-style: none;
+}
+
+#nav li {
+display: inline;
+padding: 0 50px;
+}
+
+#nav li a{
+color: #0066ff;
+font-size:120%;
+padding: 0 5px;
+text-decoration: none;
+}
+
+#nav li a:hover{
+color: #f00;
+text-decoration: none;
+}
+
+#text{
+width: 790px;
+font-size: 20px;
+margine: 10px 6px;
+padding: 0 1px 0 0;
+float: left;
+border: 2px solid #999;*/
+}
+
+#text p {  
+text-align: justify;  
+text-indent: 1.5em;  
+margin: 0;  
+padding: 0 10px;  
+}
+
+/*#list ul {
+color: #663300;
+font-size:25px;
+font-width: 10px;
+padding:5px;
+margine: 5px;
+}*/
+#list {
+padding: 50px 15px 0px 50px;
+float: left;
+}
+
+#list ol{
+color: #0404b4;
+}
+
+.img1 {  
+width: 340px;  
+height: 287px;  
+margin: 5px 5px 0 15px;  
+float: right;  
+} 
+.img2 {  
+width: 440px;  
+height: 380px;  
+margin: 10px 10px 10px 15px;  
+float: left;  
+} 
+
+#news {  
+background: #ffc;  
+width: 266px;  
+height: 708px;
+color: #665;  
+margin: 0px 2px 0 12px;  
+float: right;  
+border: 2px solid #999;*/
+}  
+#news h3 {  
+color: #f60;  
+font-size: 150%;  
+font-weight: bold;  
+text-align: center;  
+}  
+#news ul {  
+list-style: url(marker.jpg) inside;  
+padding: 5px;
+margine: 2px;
+}
+
+#news li {  
+font-size: 100%;  
+padding: 10px 5px;  
+} 
+.clearfloat {  
+clear: both; 
+} 
+
+#footer {  
+background: #3366ff;  
+color: #fff;  
+font-size: 90%;  
+padding: 10px;
+margine: 0 0 2px 0;  
+}  
+#footer a {  
+color: #ff0;  
+}  
+#footer a:hover {  
+color: #f00;  
+}  
+#footer p {  
+padding: 2px;  
+text-align: center;  
+}  
