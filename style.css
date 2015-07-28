@@ -40,7 +40,7 @@ color: #003399;
 text-decoration: none;
 }
 
-#header a:hover {
+.header a:hover {
 color: #ffff00;
 text-decoration: none;
 }
