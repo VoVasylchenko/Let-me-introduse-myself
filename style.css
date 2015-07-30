@@ -5,7 +5,7 @@ border: 0;
 }
 
 body{
-margin:0 auto;
+margin: 0 auto;
 padding: 2% 2.4% 2% 2%;
 background: #f5f5f5 url(images/collsuper_ecbee.jpg); 
 background attachment: fixed;
@@ -19,8 +19,8 @@ sans-serif;
 
 .conteiner{
 width: 1080px;
-margin: 0 auto;
-border: 1px solid #999;
+margine: 0 100px;
+border: 5px solid #999;
 }
 
 .header{          /*selektor*/
@@ -29,6 +29,11 @@ width: 1080px;
 height: 170px;
 }
 
+h1{
+font-size: 250%;
+font-weigth: bold;
+padding: 30px 10px 0;
+}
 
 .header a {
 color: #003399;
@@ -40,30 +45,26 @@ color: #ffff00;
 text-decoration: none;
 }
 
-h1{
-font-size: 250%;
-font-weigth: bold;
-padding: 30px 10px 0;
-}
-
 .description {
 font-size: 150%;
 color: #fff;
 padding: 10px 10px;
 }
 
-.conteiner1{
-background: #003333;
-width: 1080px;
-margin: 5px auto;
-border: 0.5px solid #999;*/
-}
 
 .nav{
+/*background: url(images/button.jpg) repeat-x;
 /*border: 2px solid #ccffcc;*/
-width: 150px;
-height: 30px;
+widhth: 150px;
+height: 38px;
 text-align: center;
+}
+
+.conteiner{
+background: #003333;
+width: 1080px;
+margine: 0 100px;
+border: 2px solid #999;
 }
 
 .nav ul{
@@ -88,12 +89,11 @@ text-decoration: none;
 }
 
 .text{
-width: 790px;
+width: 800px;
 font-size: 20px;
-margin: 1px 6px;
-padding: 0 1px 0 0;
+margine: 10px 0px;
 float: left;
-border: 2px solid #999;*/
+border: 0.5px solid black;
 }
 
 .text p {  
@@ -103,20 +103,20 @@ margin: 0;
 padding: 0 10px;  
 }
 
-/*#list ul {
+.list ul {
 color: #663300;
 font-size:25px;
 font-width: 10px;
 padding:5px;
 margine: 5px;
-}*/
+}
 .list {
 padding: 50px 15px 0px 50px;
 float: left;
 }
 
 .list ol{
-color: #0404b4;
+color: 669900;
 }
 
 .img1 {  
@@ -135,11 +135,11 @@ float: left;
 .news {  
 background: #ffc;  
 width: 266px;  
-height: 708px;
+height: 692px;
 color: #665;  
-margin: 0px 2px 0 1px;  
+margin: 0px 2px 0 12px;  
 float: right;  
-border: 2px solid #999;*/
+border: 0.5px solid black;
 }  
 .news h3 {  
 color: #f60;  
@@ -150,7 +150,7 @@ text-align: center;
 .news ul {  
 list-style: url(marker.jpg) inside;  
 padding: 5px;
-margin: 2px;
+margine: 2px;
 }
 
 .news li {  
@@ -166,7 +166,7 @@ background: #3366ff;
 color: #fff;  
 font-size: 90%;  
 padding: 10px;
-margin: 0 0 2px 0;  
+margine: 0 0 2px 0;  
 }  
 .footer a {  
 color: #ff0;  
