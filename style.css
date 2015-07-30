@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 border: 0;
 }
-/*///////*/
+
 body{
 margin:0 auto;
 padding: 2% 2.4% 2% 2%;
@@ -19,8 +19,8 @@ sans-serif;
 
 .conteiner{
 width: 1080px;
-margin: 0 1px;
-border: 5px solid #999;
+margin: 0 auto;
+border: 1px solid #999;
 }
 
 .header{          /*selektor*/
@@ -29,11 +29,6 @@ width: 1080px;
 height: 170px;
 }
 
-h1{
-font-size: 250%;
-font-weigth: bold;
-padding: 30px 10px 0;
-}
 
 .header a {
 color: #003399;
@@ -45,26 +40,30 @@ color: #ffff00;
 text-decoration: none;
 }
 
+h1{
+font-size: 250%;
+font-weigth: bold;
+padding: 30px 10px 0;
+}
+
 .description {
 font-size: 150%;
 color: #fff;
 padding: 10px 10px;
 }
 
-
-.nav{
-/*background: url(images/button.jpg) repeat-x;
-/*border: 2px solid #ccffcc;*/
-width: 150px;
-height: 38px;
-text-align: center;
-}
-
-.conteiner{
+.conteiner1{
 background: #003333;
 width: 1080px;
-margin: 0 1px;
-border: 2px solid #999;
+margin: 5px auto;
+border: 0.5px solid #999;*/
+}
+
+.nav{
+/*border: 2px solid #ccffcc;*/
+width: 150px;
+height: 30px;
+text-align: center;
 }
 
 .nav ul{
