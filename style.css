@@ -67,6 +67,14 @@ margine: 0 100px;
 border: 2px solid #999;
 }
 
+#dropdown{
+background: #003333;
+color: #0066ff;
+font-size:120%;
+padding: 0 5px;
+text-decoration: none;
+}
+
 .nav ul{
 list-type-style: none;
 }
