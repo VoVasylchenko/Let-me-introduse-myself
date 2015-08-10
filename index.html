@@ -6,16 +6,15 @@
    <meta name="keywords" content="Me, My life, Vova, My first job" />
     <title>Site about me and my first work in web|Main</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <script type="text/javascript" 
-    {
+    <script type="text/javascript">
      function down()
-      var a = document.getElementById('dropdown')
+     { document.getElementById('dropdown')
        if (a.style.display == 'none')
         a.style.display == 'block'
        else
           if (a.style.display == 'block')
             a.style.display == 'none'
-    }>
+      }
     </script> 
   </head>
      <body>
@@ -26,19 +25,18 @@
       </div>
        <div class="nav">
        <div class="conteiner">
-        <ul>
-         <a class="downlist" onclick="down()">Home</a>
-         <ul id="dropdown" style="display:none"> 
-          <li class="home"><a href="javascript:void(0)">Home</a></li>
+       <ul>
+         <a class="droplink" onclick="down()">Home</a>
+          <ul id="dropdown" style="display:none"> 
+          <li><a href="javascript:void(0)">Home</a></li>
           <li><a href="javascript:void(0)">Interesting</a></li>
           <li><a href="javascript:void(0)">Photo</a></li>
           <li><a href="javascript:void(0)">Read</a></li>
           <li><a href="javascript:void(0)">Contacts</a></li>
           <li><a href="javascript:void(0)">About</a></li>
-         </ul>
+          </ul>
          <li><a href="javascript:void(0)">Interesting</a></li>
          <li><a href="javascript:void(0)">Photo</a></li>
-         <!--<li><a href="#">Video</a></li>-->
          <li><a href="javascript:void(0)">Read</a></li>
          <li><a href="javascript:void(0)">Contacts</a></li>
          <li><a href="javascript:void(0)">About</a></li>

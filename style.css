@@ -19,7 +19,7 @@ sans-serif;
 
 .conteiner{
 width: 1080px;
-margine: 0 100px;
+margin: 0 1px;
 border: 5px solid #999;
 }
 
@@ -31,7 +31,7 @@ height: 170px;
 
 h1{
 font-size: 250%;
-font-weigth: bold;
+font-width: bold;
 padding: 30px 10px 0;
 }
 
@@ -55,7 +55,7 @@ padding: 10px 10px;
 .nav{
 /*background: url(images/button.jpg) repeat-x;
 /*border: 2px solid #ccffcc;*/
-widhth: 150px;
+width: 150px;
 height: 38px;
 text-align: center;
 }
@@ -63,8 +63,9 @@ text-align: center;
 .conteiner{
 background: #003333;
 width: 1080px;
-margine: 0 100px;
+margin: 0 0px;
 border: 2px solid #999;
+position: relative;
 }
 
 /*#dropdown{
@@ -75,35 +76,36 @@ padding: 0 5px;
 text-decoration: none;
 }*/
 
-.downlist{
+.droplink{
 color: #0066ff;
 font-size:120%;
 padding: 0 5px;
 text-decoration: none;
 display:inline-block;
 cursor: pointer;
+/*position: absolute;*/
 }
 
-.downlist:hover{
+.droplink:hover{
 color: #f00;
 text-decoration: none;
 }
 
-.downlist:active{
+.droplink:active{
 position:relative;
 top:1px;
 }
 
-.downlist ul{
+.droplink ul{
 padding:0;
 margin:0;
 }
 
-.downlist li{
+.droplink li{
 display:block;
 }
 
-.downlist li a{
+.droplink li a{
 padding:1px 1px;
 margin:1px;
 display:block;
@@ -114,9 +116,6 @@ background-repeat:no-repeat;
 background-position: 5px 3px
 }
 
-.home{
-
-}
 /*.down{
 color: #0066ff;
 font-size:120%;
@@ -148,7 +147,7 @@ text-decoration: none;
 .text{
 width: 800px;
 font-size: 20px;
-margine: 10px 0px;
+margin: 10px 0px;
 float: left;
 border: 0.5px solid black;
 }
@@ -165,7 +164,7 @@ color: #663300;
 font-size:25px;
 font-width: 10px;
 padding:5px;
-margine: 5px;
+margin: 5px;
 }
 .list {
 padding: 50px 15px 0px 50px;
@@ -191,10 +190,10 @@ float: left;
 
 .news {  
 background: #ffc;  
-width: 266px;  
-height: 692px;
+width: 277px;  
+height: 691px;
 color: #665;  
-margin: 0px 2px 0 12px;  
+margin: 10px 0 0 auto;
 float: right;  
 border: 0.5px solid black;
 }  
@@ -207,7 +206,7 @@ text-align: center;
 .news ul {  
 list-style: url(marker.jpg) inside;  
 padding: 5px;
-margine: 2px;
+margin: 2px;
 }
 
 .news li {  
@@ -223,7 +222,7 @@ background: #3366ff;
 color: #fff;  
 font-size: 90%;  
 padding: 10px;
-margine: 0 0 2px 0;  
+margin: 0 0 2px 0;  
 }  
 .footer a {  
 color: #ff0;  
