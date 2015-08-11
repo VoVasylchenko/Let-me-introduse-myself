@@ -63,27 +63,39 @@ text-align: center;
 .conteiner{
 background: #003333;
 width: 1080px;
-margin: 0 0px;
+margin: 0px 0 0 0;
 border: 2px solid #999;
 position: relative;
+
 }
 
-/*#dropdown{
+.wrapper{
+	margin:5px 10px 20px 50px;
+	padding: 0 5px;
+	position:absolute;
+	width:0px;
+	height:0px;
+	background:#A9F5F2;
+	margin-top:1px;
+	}
+
+#dropdown{
 background: #003333;
 color: #0066ff;
 font-size:120%;
 padding: 0 5px;
 text-decoration: none;
-}*/
+position: relative;
+}
 
 .droplink{
 color: #0066ff;
+background:##A9F5F2;
 font-size:120%;
 padding: 0 5px;
 text-decoration: none;
 display:inline-block;
 cursor: pointer;
-/*position: absolute;*/
 }
 
 .droplink:hover{
@@ -99,10 +111,12 @@ top:1px;
 .droplink ul{
 padding:0;
 margin:0;
+position: absolute;
+background:#A9F5F2;
 }
 
 .droplink li{
-display:block;
+display:none;
 }
 
 .droplink li a{
@@ -111,17 +125,23 @@ margin:1px;
 display:block;
 color:#000;
 text-decoration: none;
-font-size:12px;
+font-size:5px;
 background-repeat:no-repeat;
-background-position: 5px 3px
+background-position: 2px 3px;
+background:#A9F5F2;
 }
 
-/*.down{
-color: #0066ff;
-font-size:120%;
-padding: 0 5px;
+.droplink ul li a{
+	padding:0px 1px;
+margin:0px;
+display:block;
+color:#000;
 text-decoration: none;
-}*/
+font-size:15px;
+background-repeat:no-repeat;
+background-position: 2px 3px;
+background-color:#A9F5F2;
+}
 
 .nav ul{
 list-type-style: none;
@@ -129,13 +149,13 @@ list-type-style: none;
 
 .nav li {
 display: inline;
-padding: 0 50px;
+padding: 10px 40px;
 }
 
 .nav li a{
 color: #0066ff;
 font-size:120%;
-padding: 0 5px;
+padding: 2px 2px;
 text-decoration: none;
 }
 
